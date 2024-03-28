@@ -9,3 +9,20 @@
     background-size: cover;
     height: 109vh;
 }
+.nav{
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: blue;
+    font-size: 35px;
+    font-family: sans-serif;
+    float:left;
+    padding-top: 10px;
+}
