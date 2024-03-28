@@ -26,3 +26,17 @@
     float:left;
     padding-top: 10px;
 }
+.menu{
+    width: 400px;
+    float: right;
+    height: 100px;
+    /* widthxheight is alloted space but will not change text ect */
+    padding-right: 110px;
+}
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 110px;
+}
