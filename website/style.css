@@ -28,15 +28,31 @@
 }
 .menu{
     width: 400px;
-    float: right;
+    float: left;
     height: 100px;
     /* widthxheight is alloted space but will not change text ect */
     padding-right: 110px;
 }
 ul{
-    float: right;
+    float: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 110px;
+}
+ul li{
+    list-style:none; /*aka how they list out design wise ex circle is bullet points*/
+    margin-left: 40px; /*space from*/
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+ul li a{
+    text-decoration:none;
+    color: aqua;
+    font-family: sans-serif;
+    font-weight: bolder;
+    /*transition: 0.4s ease-in-out;*/
+}
+ul li a:hover{
+    color: blueviolet;
 }
