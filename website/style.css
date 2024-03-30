@@ -4,7 +4,7 @@
 }
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://placehold.co/600x600.png);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://placehold.co/600x1200.png);
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -13,25 +13,29 @@
     width: 1200px;
     height: 75px;
     margin:auto;
+    
 }
 .icon{
     width: 200px;
     float: left;
     height: 70px;
+    
 }
 .logo{
     color: blue;
     font-size: 35px;
     font-family: sans-serif;
     float:left;
-    padding-top: 10px;
+    padding-top: 5px;
+    
 }
 .menu{
-    width: 400px;
+    width: 300px;
     float: left;
-    height: 100px;
+    height: 60px;
     /* widthxheight is alloted space but will not change text ect */
     padding-right: 110px;
+    
 }
 ul{
     float: left;
@@ -57,41 +61,47 @@ ul li a:hover{
     color: blueviolet;
 }
 .search{
-    width: 330px;
-    float:inline-end;
-    margin-top: 70px;
+    width: 100px;
 }
 .srch{
     font-family: Arial;
-    float:right;
     width: 200px;
     height: 40px;
     background: transparent;
     border: 1px solid blue;
-    color: antiquewhite;
     font-size: 16px;
-    padding: 10px;
-    margin-right: 500px;
-    margin-top: 50px;
+    font:red;
+
 }
+
 .btn{
     width: 100px;
     height: 40px;
     background-color: blanchedalmond;
     border: 1px;
-    margin-top: 10px;
     color: aqua;
     font-size: 16px;
 }
+
 .content{
     width: 700px;
     color: aliceblue;
     font-size: 32px;
+    margin-top: 10px;
 }
-.shop{
-    width: 50px;
-    color: violet;
+.content .shop {
+    width: 100px;
+    height: 40px;
+    background: violet;
     font-size: 28px;
-    background: transparent;
-    border:transparent ;
+    cursor: pointer;
+    transition: .4 ease;
+}
+.content .shop a{
+    color: brown;
+    text-decoration: none;
+    transition: .3s ease;
+}
+.shop:hover{
+    background-color: azure;
 }
