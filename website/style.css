@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 2px;
 }
 .main{
     width: 100%;
@@ -55,4 +55,43 @@ ul li a{
 }
 ul li a:hover{
     color: blueviolet;
+}
+.search{
+    width: 330px;
+    float:inline-end;
+    margin-top: 70px;
+}
+.srch{
+    font-family: Arial;
+    float:right;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid blue;
+    color: antiquewhite;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: blanchedalmond;
+    border: 1px;
+    margin-top: 10px;
+    color: aqua;
+    font-size: 16px;
+}
+.content{
+    width: 700px;
+    color: aliceblue;
+    font-size: 32px;
+}
+.shop{
+    width: 50px;
+    color: violet;
+    font-size: 28px;
+    background: transparent;
+    border:transparent ;
 }
