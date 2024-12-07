@@ -2,12 +2,17 @@
     margin: 0;
     padding: 2px;
 }
-.main{
+.main-background{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://placehold.co/600x1200.png);
     background-position: center;
     background-size: cover;
     height: 109vh;
+    display: flex;
+}
+.main-text{
+    margin: 10px;
+
 }
 .nav{
     width: 1200px;
@@ -17,7 +22,10 @@
 }
 .icon{
     width: 200px;
-    float: left;
+    float: right;
     height: 70px;
-    
+    border-radius: 10px;    
+
+
+
 }
